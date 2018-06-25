@@ -1,0 +1,22 @@
+.turtle{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+#mouth{
+  transform-origin: 38% 60%;
+  z-index: 1;
+}
+#center{
+  display: none;
+  position: fixed;
+  left: 38%;
+  top: 60%;
+  border-radius: 50%;
+  width: .5rem;
+  height: .5rem;
+  background-color: grey;
+  z-index: 2;
+}
